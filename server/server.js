@@ -12,5 +12,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log("serer is up!");
+    console.log("serer is up! Port -" + port);
 });
